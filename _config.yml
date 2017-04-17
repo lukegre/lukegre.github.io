@@ -20,7 +20,7 @@ description: "My research page"
 source_link: "https://github.com/luke-gregor"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key:  "551097848437-raj1oojesmoos9rtnl8epgghv4kvqh2t.apps.googleusercontent.com" ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###

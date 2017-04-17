@@ -17,12 +17,28 @@
 <body>
   <div id="main">
 
-    <nav><ul>
+    <nav>
+
+    <div style="float:left; margin-left: 30%; position: absolute;">
+    <ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
-    </ul></nav>
+    </ul>
+    </div>
+
+    <div style="float:right; margin: 10px">
+
+      <a href="http://github.com/luke-gregor" target="_blank" title="GitHub.com">                     <img src="./img/GitHub-icon.png"       class="imagedropshadow" style="margin:4px; height: 40px"></a>
+      <a href="mailto:luke.d.gregor@gmail.com" title="email me">                                      <img src="./img/Email-icon.png"        class="imagedropshadow" style="margin:4px; height: 40px"></a>
+      <a href="https://www.researchgate.net/profile/Luke_Gregor" target="_blank" title="ResearchGate"><img src="./img/Researchgate-icon.png" class="imagedropshadow" style="margin:4px; height: 40px"></a>
+      <a href="https://www.linkedin.com/in/luke-gregor-b085281b" target="_blank" title="LinkedIn">    <img src="./img/Linkedin-icon.png"     class="imagedropshadow" style="margin:4px; height: 40px"></a>
+    </div>
+
+
+
+    </nav>
 
 
     {% for page in site.posts reversed %}

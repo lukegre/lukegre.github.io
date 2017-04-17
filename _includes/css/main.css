@@ -64,6 +64,14 @@ hr {
   border-color: {{ site.colors.black }};
 }
 
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .container { word-wrap: break-word; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
@@ -111,8 +119,8 @@ hr {
 
 /* ----- top menu ----- */
 
-{% assign navborder = 3 %}
-{% assign navborder_active = 6 %}
+{% assign navborder = 5 %}
+{% assign navborder_active = 10 %}
 
 nav {
   font-size:15px;
@@ -162,6 +170,12 @@ nav ul li:hover, nav ul li.active {
   padding-top: 0;
 }
 
+
+a:hover img.imagedropshadow {
+    -moz-filter:    drop-shadow(0px 0px 4px #999);
+    -webkit-filter: drop-shadow(0px 0px 4px #999);
+        filter:     drop-shadow(0px 0px 4px #999);
+}
 
 /* ----- sections/articles ----- */
 
