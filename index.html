@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GitLab pages - Demo</title>
+    <title>LG Oceanographer</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
@@ -49,14 +49,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Luke Gregor</a>
+            <a class="navbar-brand page-scroll" href="file:///Users/luke/GitProjects/websites/luke-gregor.github.io#page-top">Luke Gregor</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="#about"    >  About        </a></li>
-                <li><a class="page-scroll" href="#services" >  Science      </a></li>
+                <li><a class="page-scroll" href="#header"    >  About        </a></li>
+                <li><a class="page-scroll" href="#services" >  Research     </a></li>
                 <li><a class="page-scroll" href="#portfolio">  Blog         </a></li>
                 <li><a class="page-scroll" href="#aside"    >  Publications </a></li>
                 <li><a class="page-scroll" href="#contact"  >  Social       </a></li>
@@ -67,7 +67,7 @@
     <!-- /.container-fluid -->
 </nav>
 
-  <header>
+  <header id="header">
     <div class="header-content">
         <div class="header-content-inner">
             <!-- <h2>Luke Gregor</h2> -->
@@ -115,15 +115,15 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".1s"></i>
                     <h3>PROGRAMMING</h3>
-                    <p class="text-muted">I love developing new applications and user interfaces to make science easier. </p>
+                    <p class="text-muted">I enjoy developing new applications and user interfaces to make science easier. </p>
                 </div>
             </div>
 
             <div class="col-sm-4 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-file-text-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>PUBLICATIONS</h3>
-                    <p class="text-muted">I have learnt to run instrumentation to measure CO<sub>2</sub>. </p>
+                    <h3>LECTURING</h3>
+                    <p class="text-muted">You can find some of my lectures on using Python in Oceanography at <a href="#" title="">this link </a>. </p>
                 </div>
             </div>
 <!--
@@ -150,72 +150,194 @@
 
             
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/blog.html#ICDC 10 (Interlaken, Switzerland)" class="portfolio-box">
+                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_1" style="border-width: 0px; padding: 0px">
                         <img src=static/img/posts/icdc10_interlaken.jpg class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
+
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Climate science
-                                </div>
-                                <div class="project-name">
-                                    ICDC 10 (Interlaken, Switzerland)
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5">
-                                    19 August 2017<br>
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae hic rei publicae vulnera inponebat, eadem ille sanabat. Re mihi non aeque satisfacit, et quidem locis pluribus. Sed nunc, quod agimus; Ita cum ea volunt retinere, quae superiori sententiae conveniunt, in Aristonem incidunt; Satisne ergo pudori consulat, si quis sine teste...
-                                </div>
+                                <div class="project-category text-faded">Climate science</div>
+                                <div class="project-name">IPCC talks at ICDC 10</div>
+                                <div style="font-family: helvetica; opacity: 0.5">19 August 2017<br></div>
+                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">I recently attended the 10th International Carbon Dioxide Conference (ICDC) in Interlaken, Switzerland, where I presented a poster. The conference brings together ocean, atmosphere, terrestrial and political scientists to talk about how anthropogenic CO2 is impacting the natural cycles. One of the great things about this conference is that we...</div>
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="post_1" role="dialog">
+              <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">IPCC talks at ICDC 10</h2>
+                    <p style="font-size: 12px">19 August 2017</p>
+                  </div>
+                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
+                    <p>I recently attended the 10th International Carbon Dioxide Conference (ICDC) in Interlaken, Switzerland, where I presented a poster. The conference brings together ocean, atmosphere, terrestrial and political scientists to talk about how anthropogenic CO<sub>2</sub> is impacting the natural cycles. One of the great things about this conference is that we learn from these different fields.</p>
+
+<div class="col-sm-7 col-lg-5 " style="float: right; margin-right: 10px; padding: 0px; margin-bottom: 10px; box-shadow: 0px 0px 5px">
+        <div class="fix">
+            <img src="./static/img/posts/icdc10_interlaken.jpg" class="img-responsive" alt="" />
+            <div class="desc">
+                <p class="desc_content">The view of Interlaken from Harder Klum viewpoint. In the distance, Jungfrau and the Eigher.</p>
+            </div>
+        </div>
+</div>
+
+<p>The talks on climate change and policy were  interesting as they summarised the motivation for a lot of the work at the conference. In particular a presentation by <a href="http://www.cicero.uio.no/en/employee/30/glen-peters" title="">Glen Peters from CICERO</a>. Here are some quotes from his presentation:</p>
+<blockquote>
+
+  <p>Current emission pledges to the Paris Agreement appear insufficient to hold the global average temperature increase to well below 2°C above pre-industrial levels.</p>
+</blockquote>
+
+<blockquote>
+
+  <p>Explosive and policy-driven growth in wind and solar has contributed to the global emissions slowdown, but has been less important than economic factors and energy efficiency.</p>
+</blockquote>
+
+<div class="col-lg-5 col-sm-5 col-xs-7" style="float: left; margin-right: 30px; margin-bottom: 10px; margin-top: 10px;  padding: 0px; box-shadow: 0px 0px 5px">
+        <div class="fix">
+            <img src="./static/img/posts/ipcc_ssps_gdp_gini.png" class="img-responsive" alt="" />
+            <div class="desc">
+                <p class="desc_content">A graph showing the GDP per capita for each of the naritives for the next IPCC assessment report, where the key corresponds to the definitions in the text.</p>
+            </div>
+        </div>
+</div>
+<p>This highlights the comlexity of the climate change problem, showing that ultimately policy will be needed to push companies and consumers in the right direction ( &lt; 2°C). This is also the reason that the IPCC, the International Panel for Climate Change (UN) has intrudced the new Shared Socioeconomic Scenarios (SSPs), which was presented by <a href="https://www.researchgate.net/profile/Nico_Bauer" title="">Nico Bauer</a>. There are currently five SSP naritives for the next assesment report (<a href="http://linkinghub.elsevier.com/retrieve/pii/S0959378016300681" title="">Riahi et al., 2017)</a>:</p>
+
+<ol>
+    <li><b>Sustainability: </b> The world shifts gradually, but pervasively, toward a more sustainable path, emphasizing more inclusive development that respects perceived environmental boundaries. </li>
+    <li><b>Middle of the road: </b>The world follows a path in which social, economic, and technological trends do not shift markedly from historical patterns. </li>
+    <li><b>Regional rivalry:</b> A resurgent nationalism, concerns about competitiveness and security, and regional conflicts push countries to increasingly focus on domestic or, at most, regional issues.</li>
+    <li><b>Inequality: </b>Highly unequal investments in human capital, combined with increasing disparities in economic opportunity and political power, lead to increasing inequalities and stratification both across and within countries.</li>
+    <li><b>Fossil-fueled Development: </b>This world places increasing faith in competitive markets, innovation and participatory societies to produce rapid technological progress and development of human capital as the path to sustainable development. </li>
+</ol>
+
+<p>Go to my google album to see more photos of Interlaken <a target="blank" href="https://goo.gl/photos/oJPMiSfwAS3XbdPz6" title="">https://goo.gl/photos/oJPMiSfwAS3XbdPz6</a></p>
+
+<div class="row">
+    <img class="img-responsive col-sm-4 col-xs-12 img-rounded" src="./static/img/posts/jungfrau_1.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
+    <img class="img-responsive col-sm-4 col-xs-12  img-rounded" src="./static/img/posts/jungfrau_0.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
+    <img class="img-responsive col-sm-4 col-xs-12  img-rounded" src="./static/img/posts/jungfrau_2.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
+</div>
+
+                  </div>
+                  <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div> -->
+                </div>
+
+              </div>
+            </div>
+
 
             
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/blog.html#El Niño" class="portfolio-box">
+                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_2" style="border-width: 0px; padding: 0px">
                         <img src=static/img/posts/enso_schematic.png class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
+
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Local climate
-                                </div>
-                                <div class="project-name">
-                                    El Niño
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5">
-                                    17 November 2016<br>
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quid sequatur, quid repugnet, vident. Nemo nostrum istius generis asotos iucunde putat vivere. Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Est igitur officium eius generis,...
-                                </div>
+                                <div class="project-category text-faded">Local climate</div>
+                                <div class="project-name">El Niño</div>
+                                <div style="font-family: helvetica; opacity: 0.5">17 November 2016<br></div>
+                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quid sequatur, quid repugnet, vident. Nemo nostrum istius generis asotos iucunde putat vivere. Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Est igitur officium eius generis,...</div>
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="post_2" role="dialog">
+              <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">El Niño</h2>
+                    <p style="font-size: 12px">17 November 2016</p>
+                  </div>
+                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quid sequatur, quid repugnet, vident. Nemo nostrum istius generis asotos iucunde putat vivere. Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis. </p>
+
+<p>Te ipsum, dignissimum maioribus tuis, voluptasne induxit, ut adolescentulus eriperes P. Igitur neque stultorum quisquam beatus neque sapientium non beatus. Quas enim kakaw Graeci appellant, vitia malo quam malitias nominare. At habetur! Et ego id scilicet nesciebam! Sed ut sit, etiamne post mortem coletur? Atqui reperies, inquit, in hoc quidem pertinacem; Quod equidem non reprehendo; </p>
+
+<dl>
+    <dt><dfn>Venit ad extremum;</dfn></dt>
+    <dd>Non potes, nisi retexueris illa.</dd>
+    <dt><dfn>Sed nimis multa.</dfn></dt>
+    <dd>Et ais, si una littera commota sit, fore tota ut labet disciplina.</dd>
+    <dt><dfn>Easdemne res?</dfn></dt>
+    <dd>Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis.</dd>
+    <dt><dfn>Quis negat?</dfn></dt>
+    <dd>Nam memini etiam quae nolo, oblivisci non possum quae volo.</dd>
+</dl>
+
+
+                  </div>
+                  <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div> -->
+                </div>
+
+              </div>
+            </div>
+
 
             
                 <div class="col-lg-4 col-sm-6">
-                    <a href="/blog.html#Jupyter notebook on clusters" class="portfolio-box">
+                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_3" style="border-width: 0px; padding: 0px">
                         <img src=static/img/portfolio/clouds.jpg class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
+
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Programming
-                                </div>
-                                <div class="project-name">
-                                    Jupyter notebook on clusters
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5">
-                                    12 January 2010<br>
-                                </div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc non est positum in nostra actione. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Ut alios omittam, hunc appello, quem ille unum secutus est. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Duo Reges: constructio interrete. Miserum...
-                                </div>
+                                <div class="project-category text-faded">Programming</div>
+                                <div class="project-name">Jupyter notebook on clusters</div>
+                                <div style="font-family: helvetica; opacity: 0.5">12 January 2010<br></div>
+                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc non est positum in nostra actione. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Ut alios omittam, hunc appello, quem ille unum secutus est. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Duo Reges: constructio interrete. Miserum...</div>
                             </div>
                         </div>
-                    </a>
+                    </button>
                 </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="post_3" role="dialog">
+              <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">Jupyter notebook on clusters</h2>
+                    <p style="font-size: 12px">12 January 2010</p>
+                  </div>
+                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc non est positum in nostra actione. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Ut alios omittam, hunc appello, quem ille unum secutus est. </p>
+
+<p>Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Duo Reges: constructio interrete. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Etenim semper illud extra est, quod arte comprehenditur. Sapiens autem semper beatus est et est aliquando in dolore; <b>Audeo dicere, inquit.</b> Nihil minus, contraque illa hereditate dives ob eamque rem laetus. </p>
+
+<pre>
+Intellegi quidem, ut propter aliam quampiam rem, verbi
+gratia propter voluptatem, nos amemus;
+
+His similes sunt omnes, qui virtuti student levantur vitiis,
+levantur erroribus, nisi forte censes Ti.
+</pre>
+
+
+                  </div>
+                  <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div> -->
+                </div>
+
+              </div>
+            </div>
+
 
             
 
@@ -224,6 +346,7 @@
 
         </div>
     </div>
+
 </section>
 
     <aside id="aside" class="bg-light">
