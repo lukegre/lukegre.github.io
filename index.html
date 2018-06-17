@@ -1,453 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LG Oceanographer</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="static/css/material.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="static/css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-
-<body id="page-top">
-
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="file:///Users/luke/GitProjects/websites/luke-gregor.github.io#page-top">Luke Gregor</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="#header"    >  About        </a></li>
-                <li><a class="page-scroll" href="#services" >  Research     </a></li>
-                <li><a class="page-scroll" href="#portfolio">  Blog         </a></li>
-                <li><a class="page-scroll" href="#aside"    >  Publications </a></li>
-                <li><a class="page-scroll" href="#contact"  >  Social       </a></li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
-  <header id="header">
-    <div class="header-content">
-        <div class="header-content-inner">
-            <!-- <h2>Luke Gregor</h2> -->
-            <!-- <hr> -->
-            <p>I am a Cape Town based oceanographer. My research focusses on the global carbon cycle. I also have a strong interest in writing Python tools for speeding up data processing in oceanography. You will also find links to my Python for oceanographers lectures on this website. </p>
-            <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a> -->
-        </div>
-    </div>
-</header>
-
-  <!-- <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">We've got what you need!</h2>
-                <hr class="light">
-                <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                <a href="https://gitlab.com/jekyll-themes/creative/" class="btn btn-default btn-xl">Fork Me!</a>
-            </div>
-        </div>
-    </div>
-</section>
- -->
-  <section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">RESEARCH</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-            <div class="row">
-
-            <div class="col-sm-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>OCEAN CO<sub>2</sub></h3>
-                    <p class="text-muted">My research focuses on the impact that climate change has on CO<sub>2</sub> uptake in the ocean.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-code wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>PROGRAMMING</h3>
-                    <p class="text-muted">I enjoy developing new applications and user interfaces to make science easier. </p>
-                </div>
-            </div>
-
-            <div class="col-sm-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-file-text-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>LECTURING</h3>
-                    <p class="text-muted">You can find some of my lectures on using Python in Oceanography at <a href="#" title="">this link </a>. </p>
-                </div>
-            </div>
-<!--
-            <div class="col-sm-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-ship wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Research cruises</h3>
-                    <p class="text-muted">I have learnt to run instrumentation to measure CO2. </p>
-                </div>
-            </div> -->
-        </div>
-    </div>
-</section>
-
-  <section class="no-padding" id="portfolio">
-    <div class="container-fluid">
-
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">BLOG POSTS</h2>
-        </div>
-
-        <div class="row no-gutter">
-
-
-
-                <div class="col-lg-4 col-sm-6">
-                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_1" style="border-width: 0px; padding: 0px">
-                        <img src=static/img/posts/icdc10_interlaken.jpg class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
-
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">Climate science</div>
-                                <div class="project-name">IPCC talks at ICDC 10</div>
-                                <div style="font-family: helvetica; opacity: 0.5">19 August 2017<br></div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">I recently attended the 10th International Carbon Dioxide Conference (ICDC) in Interlaken, Switzerland, where I presented a poster. The conference brings together ocean, atmosphere, terrestrial and political scientists to talk about how anthropogenic CO2 is impacting the natural cycles. One of the great things about this conference is that we...</div>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="post_1" role="dialog">
-              <div class="modal-dialog modal-lg">
-
-                <!-- Modal content-->
-                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">IPCC talks at ICDC 10</h2>
-                    <p style="font-size: 12px">19 August 2017</p>
-                  </div>
-                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
-                    <p>I recently attended the 10th International Carbon Dioxide Conference (ICDC) in Interlaken, Switzerland, where I presented a poster. The conference brings together ocean, atmosphere, terrestrial and political scientists to talk about how anthropogenic CO<sub>2</sub> is impacting the natural cycles. One of the great things about this conference is that we learn from these different fields.</p>
-
-<div class="col-sm-7 col-lg-5 " style="float: right; margin-right: 10px; padding: 0px; margin-bottom: 10px; box-shadow: 0px 0px 5px">
-        <div class="fix">
-            <img src="./static/img/posts/icdc10_interlaken.jpg" class="img-responsive" alt="" />
-            <div class="desc">
-                <p class="desc_content">The view of Interlaken from Harder Klum viewpoint. In the distance, Jungfrau and the Eigher.</p>
-            </div>
-        </div>
-</div>
-
-<p>The talks on climate change and policy were  interesting as they summarised the motivation for a lot of the work at the conference. In particular a presentation by <a href="http://www.cicero.uio.no/en/employee/30/glen-peters" title="">Glen Peters from CICERO</a>. Here are some quotes from his presentation:</p>
-<blockquote>
-
-  <p>Current emission pledges to the Paris Agreement appear insufficient to hold the global average temperature increase to well below 2°C above pre-industrial levels.</p>
-</blockquote>
-
-<blockquote>
-
-  <p>Explosive and policy-driven growth in wind and solar has contributed to the global emissions slowdown, but has been less important than economic factors and energy efficiency.</p>
-</blockquote>
-
-<div class="col-lg-5 col-sm-5 col-xs-7" style="float: left; margin-right: 30px; margin-bottom: 10px; margin-top: 10px;  padding: 0px; box-shadow: 0px 0px 5px">
-        <div class="fix">
-            <img src="./static/img/posts/ipcc_ssps_gdp_gini.png" class="img-responsive" alt="" />
-            <div class="desc">
-                <p class="desc_content">A graph showing the GDP per capita for each of the naritives for the next IPCC assessment report, where the key corresponds to the definitions in the text.</p>
-            </div>
-        </div>
-</div>
-<p>This highlights the comlexity of the climate change problem, showing that ultimately policy will be needed to push companies and consumers in the right direction ( &lt; 2°C). This is also the reason that the IPCC, the International Panel for Climate Change (UN) has intrudced the new Shared Socioeconomic Scenarios (SSPs), which was presented by <a href="https://www.researchgate.net/profile/Nico_Bauer" title="">Nico Bauer</a>. There are currently five SSP naritives for the next assesment report (<a href="http://linkinghub.elsevier.com/retrieve/pii/S0959378016300681" title="">Riahi et al., 2017)</a>:</p>
-
-<ol>
-    <li><b>Sustainability: </b> The world shifts gradually, but pervasively, toward a more sustainable path, emphasizing more inclusive development that respects perceived environmental boundaries. </li>
-    <li><b>Middle of the road: </b>The world follows a path in which social, economic, and technological trends do not shift markedly from historical patterns. </li>
-    <li><b>Regional rivalry:</b> A resurgent nationalism, concerns about competitiveness and security, and regional conflicts push countries to increasingly focus on domestic or, at most, regional issues.</li>
-    <li><b>Inequality: </b>Highly unequal investments in human capital, combined with increasing disparities in economic opportunity and political power, lead to increasing inequalities and stratification both across and within countries.</li>
-    <li><b>Fossil-fueled Development: </b>This world places increasing faith in competitive markets, innovation and participatory societies to produce rapid technological progress and development of human capital as the path to sustainable development. </li>
-</ol>
-
-<p>Go to my google album to see more photos of Interlaken <a target="blank" href="https://goo.gl/photos/oJPMiSfwAS3XbdPz6" title="">https://goo.gl/photos/oJPMiSfwAS3XbdPz6</a></p>
-
-<div class="row">
-    <img class="img-responsive col-sm-4 col-xs-12 img-rounded" src="./static/img/posts/jungfrau_1.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
-    <img class="img-responsive col-sm-4 col-xs-12  img-rounded" src="./static/img/posts/jungfrau_0.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
-    <img class="img-responsive col-sm-4 col-xs-12  img-rounded" src="./static/img/posts/jungfrau_2.jpg" alt="Not showing image" style="padding-left: 1px; padding-right: 1px; padding-bottom: 1px" />
-</div>
-
-                  </div>
-                  <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div> -->
-                </div>
-
-              </div>
-            </div>
-
-
-
-                <div class="col-lg-4 col-sm-6">
-                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_2" style="border-width: 0px; padding: 0px">
-                        <img src=static/img/posts/enso_schematic.png class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
-
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">Local climate</div>
-                                <div class="project-name">El Niño</div>
-                                <div style="font-family: helvetica; opacity: 0.5">17 November 2016<br></div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quid sequatur, quid repugnet, vident. Nemo nostrum istius generis asotos iucunde putat vivere. Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Est igitur officium eius generis,...</div>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="post_2" role="dialog">
-              <div class="modal-dialog modal-lg">
-
-                <!-- Modal content-->
-                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">El Niño</h2>
-                    <p style="font-size: 12px">17 November 2016</p>
-                  </div>
-                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Quid sequatur, quid repugnet, vident. Nemo nostrum istius generis asotos iucunde putat vivere. Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis. </p>
-
-<p>Te ipsum, dignissimum maioribus tuis, voluptasne induxit, ut adolescentulus eriperes P. Igitur neque stultorum quisquam beatus neque sapientium non beatus. Quas enim kakaw Graeci appellant, vitia malo quam malitias nominare. At habetur! Et ego id scilicet nesciebam! Sed ut sit, etiamne post mortem coletur? Atqui reperies, inquit, in hoc quidem pertinacem; Quod equidem non reprehendo; </p>
-
-<dl>
-    <dt><dfn>Venit ad extremum;</dfn></dt>
-    <dd>Non potes, nisi retexueris illa.</dd>
-    <dt><dfn>Sed nimis multa.</dfn></dt>
-    <dd>Et ais, si una littera commota sit, fore tota ut labet disciplina.</dd>
-    <dt><dfn>Easdemne res?</dfn></dt>
-    <dd>Non minor, inquit, voluptas percipitur ex vilissimis rebus quam ex pretiosissimis.</dd>
-    <dt><dfn>Quis negat?</dfn></dt>
-    <dd>Nam memini etiam quae nolo, oblivisci non possum quae volo.</dd>
-</dl>
-
-
-                  </div>
-                  <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div> -->
-                </div>
-
-              </div>
-            </div>
-
-
-
-                <div class="col-lg-4 col-sm-6">
-                    <button href="" class="portfolio-box" data-toggle="modal" data-target="#post_3" style="border-width: 0px; padding: 0px">
-                        <img src=static/img/portfolio/clouds.jpg class="img-responsive" alt="" style="display: inline-block; height: 280px; width: 650px; overflow: hidden;">
-
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">Programming</div>
-                                <div class="project-name">Jupyter notebook on clusters</div>
-                                <div style="font-family: helvetica; opacity: 0.5">12 January 2010<br></div>
-                                <div style="font-family: helvetica; opacity: 0.5; margin: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc non est positum in nostra actione. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Ut alios omittam, hunc appello, quem ille unum secutus est. Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Duo Reges: constructio interrete. Miserum...</div>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="post_3" role="dialog">
-              <div class="modal-dialog modal-lg">
-
-                <!-- Modal content-->
-                <div class="modal-content" style="padding-bottom: 0px; margin-bottom: 0px">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h2 class="modal-title">Jupyter notebook on clusters</h2>
-                    <p style="font-size: 12px">12 January 2010</p>
-                  </div>
-                  <div class="modal-body" style="padding-bottom: 0px; margin-bottom: 0px">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc non est positum in nostra actione. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Ut alios omittam, hunc appello, quem ille unum secutus est. </p>
-
-<p>Nec lapathi suavitatem acupenseri Galloni Laelius anteponebat, sed suavitatem ipsam neglegebat; Duo Reges: constructio interrete. Miserum hominem! Si dolor summum malum est, dici aliter non potest. Etenim semper illud extra est, quod arte comprehenditur. Sapiens autem semper beatus est et est aliquando in dolore; <b>Audeo dicere, inquit.</b> Nihil minus, contraque illa hereditate dives ob eamque rem laetus. </p>
-
-<pre>
-Intellegi quidem, ut propter aliam quampiam rem, verbi
-gratia propter voluptatem, nos amemus;
-
-His similes sunt omnes, qui virtuti student levantur vitiis,
-levantur erroribus, nisi forte censes Ti.
-</pre>
-
-
-                  </div>
-                  <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div> -->
-                </div>
-
-              </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-    </div>
-
-</section>
-
-    <aside id="aside" class="bg-light">
-      <div class="container text-center">
-
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">PUBLICATIONS</h2>
-            <hr class="primary">
-        </div>
-
-
-        <ul class="col-md-8 col-md-offset-2" style="text-align: left; font-family: helvetica">
-            <li>
-            <dd>Luke Gregor, Schalk Kok, and Pedro M.&nbsp;S. Monteiro.
-            <span class="bibtex-protected">Empirical methods for the estimation of Southern Ocean CO2: Support Vector and Random Forest Regression</span>.
-            <em>Biogeosciences Discussions</em>, pages 1–18, jun 2017.
-            <a target="_blank" href="https://doi.org/10.5194/bg-2017-215">doi:10.5194/bg-2017-215</a>.</dd>
-            </li>
-            <li>
-            <dd>Dorothee&nbsp;C.E. Bakker, Benjamin Pfeil, Camilla&nbsp;S. Landa, Nicolas Metzl, ..., Luke Gregor, ..., and Suqing Xu.
-            <span class="bibtex-protected">A multi-decade record of high-quality fCO2 data in version 3 of the Surface Ocean CO2 Atlas (SOCAT)</span>.
-            <em>Earth System Science Data</em>, 8(2):383–413, 2016.
-            <a target="_blank" href="https://doi.org/10.5194/essd-8-383-2016">doi:10.5194/essd-8-383-2016</a>.</dd>
-            </li>
-            <li>
-            <dd>Pedro M.&nbsp;S. Monteiro, Luke Gregor, Marina L<span class="bibtex-protected"><span class="bibtex-protected">é</span></span>vy, Stacy Maenner, Christopher&nbsp;L. Sabine, and Sebastiaan Swart.
-            <span class="bibtex-protected">Intraseasonal variability linked to sampling alias in air-sea CO2 fluxes in the Southern Ocean</span>.
-            <em>Geophysical Research Letters</em>, 42(20):8507–8514, 2015.
-            <a target="_blank" href="https://doi.org/10.1002/2015GL066009">doi:10.1002/2015GL066009</a>.</dd>
-            <li>
-            <dd>Luke Gregor and Pedro M.&nbsp;S. Monteiro.
-            <span class="bibtex-protected">Seasonal cycle of N:P:TA stoichiometry as a modulator of CO2 buffering in eastern boundary upwelling systems</span>.
-            <em>Geophysical Research Letters</em>, 40(20):5429–5434, 2013.
-            <a target="_blank" href="https://doi.org/10.1002/2013GL058036">doi:10.1002/2013GL058036</a>.</dd>
-            </li>
-            <li>
-            <dd>Luke Gregor and Pedro M.&nbsp;S. Monteiro.
-            <span class="bibtex-protected">Is the southern benguela a significant regional sink of CO2?</span>
-            <em>South African Journal of Science</em>, 109(5):1–5, 2013.
-            <a target="_blank" href="https://doi.org/10.1590/sajs.2013/20120094">doi:10.1590/sajs.2013/20120094</a>.</dd>
-            </li>
+    <title>LG - Ocean Data Scientist </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Luke Gregor's CV</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#coding">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
         </ul>
-
-
       </div>
-  </aside>
+    </nav>
 
-  <section id="contact" >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">SOCIAL</h2>
-                <hr class="primary">
-                <!-- <p>Contact me at any of the links below. </p> -->
+    <div class="container-fluid p-0">
+
+      <!-- ABOUT -->
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Luke
+            <span class="text-primary">Gregor</span>
+          </h1>
+          <div class="subheading mb-5">Postdoctoral Research Fellow ·
+            <a href="mailto:name@email.com">luke.gregor@uct.ac.za</a>
+          </div>
+          <p class="mb-5">I am a Cape Town based oceanographer. My research focusses on the marine carbonate system. My work has ranged from the collection of CO<sub>2</sub> measurements at sea, lab analysis, data management/backup, quality control and lastly the development of a machine learning product that estimates surface ocean CO<sub>2</sub> from satellite and reanalysis data. I have a strong interest in the intersection of data science and oceanography. With a strong affinity for programming I have created a number of tools in Python that are designed to streamline the processing of CO<sub>2</sub> and other measurements from raw data to being ready for publication.</p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a title="ResearchGate" href="https://www.researchgate.net/profile/Luke_Gregor" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a title="linkedin" href="https://www.linkedin.com/in/luke-gregor-b085281b" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a title="GitLab" href="https://gitlab.com/users/luke-gregor/contributed" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a title="GitHub" target="_blank" href="https://github.com/luke-gregor">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Postdoctoral Research Fellow</h3>
+              <div class="subheading mb-3"><a target="_blank" href="http://www.socco.org.za">Southern Ocean Carbon–Climate Observatory, CSIR</a></div>
+              <p>I am currently in a two year postdoctoral contract. My research is focussed on developing a global surface CO<sub>2</sub> product using machine learning approaches. I am also working on optimising the sampling strategies of CO<sub>2</sub> for the Southern Ocean. I am also involved in the data management for the SOCCO group's Wave Gliders, Seagliders and Slocum gliders. </p>
             </div>
-        <div class="col-xs-2" >
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Data Scientist</h3>
+              <div class="subheading mb-3">Private contracting</div>
+              <p>I have developed tools in Python to process ocean data from raw format to a publishable stage. These tools are developed in Python using a suite of packages:<code> Pandas, xarray, netCDF4, flask</code> to mention a few. These can be seen in my GitHub and Gitlab profiles. I have also done short term contract back-end dev work for Prosento (<a target="_blank" href="http://www.prosento.com">www.prosento.com</a>) including very basic front-end work in <code>AngularJS</code>.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2014 to present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row  mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Lecturing</h3>
+              <div class="subheading mb-3">Department of Ocaenography, UCT</div>
+              <p>I have done several guest lectures and workshops at the University of Cape Town. In workshops, students are tought to work with different ocean data sources and how to compare and plot these data. These lectures can be found on my GitHub profile. My other lectures have been on the marine carbonate system.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2015 to present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row  mb-3">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Cruises</h3>
+              <div class="subheading mb-3">RS Agulhas II</div>
+              <p>I have also partaken in several research cruises in the Southern Ocean. On these cruises, I ran the VINDTA 3C by (Marianda) and underway <i>p</i>CO<sub>2</sub> system (by General Oceananics). I have extensive knowledge of troubleshooting these instruments. </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Dec 2010, Jun 2012, Dec 2013</span>
+            </div>
+          </div>
 
         </div>
-        <div class="col-xs-2 text-center">
-            <a target="_blank" href="https://www.instagram.com/lukgre">
-                <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <!-- <p>lukgre</p> -->
-            </a>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-3">Education</h2>
+
+          <h3 class="mb-0">University of Cape Town</h3>
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <div class="subheading mb-1">Doctorate of Philisophy </div>
+              <p style="font-size: 14px">
+                Department of Oceanography<br>
+                Awarded the Joseph Arenow award for the best Ph.D. in the Faculty of Science in 2017.
+                <b>Supervisors:</b> <i>Pedro Monteiro, Schalk Kok, Marcello Vichi</i><br>
+                <b>Title:</b> <i>Improved estimates and understanding of interannual trends of CO<sub>2</sub> fluxes in the Southern Ocean</i><br>
+                <b>Link:</b> <a target="_blank" href="https://open.uct.ac.za/handle/11427/25320">https://open.uct.ac.za/handle/11427/25320</a><br>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">February 2013 - March 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <div class="subheading mb-1">Masters of Science</div>
+              <p style="font-size: 14px">
+                Department of Oceanography<br>
+                By dissertation and passed with distinction<br>
+                <b>Supervisors:</b> <i>Pedro Monteiro, Howard Waldron</i><br>
+                <b>Title:</b> <i>Seasonality of the marine carbonate system in the Southern Benguela: nutrient stoichiometry, alkalinity production, and CO<sub>2</sub> flux. </i><br>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">February 2010 - February 2012</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-3">
+            <div class="resume-content mr-auto">
+              <div class="subheading mb-1">Bachelor of Science</div>
+              <p style="font-size: 14px">
+                Majoring in Ocean & Atmospheric Science, and Environmental & Geographical Science. <br>
+                Was on the Dean's Merit list for 2006, 2007 and 2008. <br>
+                Passed Honours in 2009 with distinction. <br>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">February 2006 - December 2009</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Bridge House School</h3>
+              <div class="subheading mb-1">High School</div>
+              <p style="font-size: 14px">Passed with A-aggregate and was awarded the Values Award for reflecting the schools mission on a sustained basis. </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2000 - Dec 2004</span>
+            </div>
+          </div>
+
         </div>
-        <div class="col-xs-2 text-center">
-            <a href="mailto:luke.gregor@uct.ac.za">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <!-- <p>luke.gregor@uct.ac.za</p> -->
-            </a>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-3">Skills</h2>
+          <p>
+            I grew up speaking English to my father, Dutch to my mother (kitchen dutch), and Afrikaans at school. I am thus proficient in English and Afrikaans writing.
+            <br>
+          </p>
+          <!-- <div class="subheading mb-3">Programming Languages &amp; Tools</div> -->
+
+          <div id="coding_skills" class="mb-5">
+
+            <h3 class="mb-3">Programming Languages &amp; Tools</h3>
+            <p>
+              My technical skills have been honed through more than five years of data munging and analysis during my MSc and PhD. During my MSc I chose to switch from MATLAB to Python as a free and community supported programming language. I am also proficient in LaTeX.
+            </p>
+
+            <div class="skillbar clearfix " data-percent="95%">
+              <div class="skillbar-title" style="background: #a0361e;"><span>Python</span></div>
+              <div class="skillbar-bar" style="background: #d6644a;"></div>
+              <div class="skill-bar-percent">95%</div>
+            </div> <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="80%">
+              <div class="skillbar-title" style="background: #b75e05;"><span>Data Visualisation</span></div>
+              <div class="skillbar-bar" style="background: #d6904a;"></div>
+              <div class="skill-bar-percent">80%</div>
+            </div> <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="75%">
+              <div class="skillbar-title" style="background: #af9f26;"><span>MATLAB</span></div>
+              <div class="skillbar-bar" style="background: #d8ca5b;"></div>
+              <div class="skill-bar-percent">75%</div>
+            </div> <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="70%">
+              <div class="skillbar-title" style="background: #27ae60;"><span>Machine Learning</span></div>
+              <div class="skillbar-bar" style="background: #2ecc71;"></div>
+              <div class="skill-bar-percent">70%</div>
+            </div> <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="50%">
+              <div class="skillbar-title" style="background: #0f5b7f;"><span>R</span></div>
+              <div class="skillbar-bar" style="background: #4aa4ce;"></div>
+              <div class="skill-bar-percent">50%</div>
+            </div> <!-- End Skill Bar -->
+
+            <div class="skillbar clearfix " data-percent="40%">
+              <div class="skillbar-title" style="background: #4f2677;"><span>HTML/JavaScript</span></div>
+              <div class="skillbar-bar" style="background: #af83db;"></div>
+              <div class="skill-bar-percent">40%</div>
+            </div> <!-- End Skill Bar -->
+          </div>
+
         </div>
-        <div class="col-xs-2 text-center">
-            <a target="_blank" href="https://github.com/luke-gregor">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <!-- <p>luke-gregor</p> -->
-            </a>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="coding">
+          <div id='code_expo' class="col-sm-12" style="padding: 0px; margin: 0px">
+            <h2 class="mb-3">Code</h2>
+            <div class="col-xs-12 col-sm-6 col-xl-4" style="float:left">
+              <div class="subheading">Buoyancy Glider Utils</div>
+              <p style="font-size: 14px">
+                A toolkit for processing Seaglider basestation NetCDF files: despiking, smoothing, outlier detection, backscatter, fluorescence quenching.
+                Plotting functions are also included. <br> <a target="_blank" href="https://gitlab.com/socco/BuoyancyGliderUtils">gitlab.com/socco/BuoyancyGliderUtils</a>
+              </p>
+              <img src="img/code_bgu.png" width="100%" style="border-width: 1px; border-color: #AAAAAA; border-style: solid" width="100%">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-xl-4" style="float:left">
+              <div class="subheading">Wave Glider Data Analysis</div>
+              <p>
+                Process raw output from the CSIR/STS CO<sub>2</sub> instrument into a readable table format. There are interactive plotting features for data exploration. This package is built using <code>Flask</code>, but is still in development and may be unstable.
+              </p>
+              <img src="img/code_waveGlida.png" style="border-width: 1px; border-color: #AAAAAA; border-style: solid" width="100%">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-xl-4" style="float:left">
+              <div class="subheading">VINDTA Recalculation</div>
+              <p>
+                A python package that allows for the recalculation of VINDTA data. This requires the .dbs file + .dat files for all the alkalinity recalculations. The package writes the output to an Excel file to make filling in nutrient data easier.
+                <br>  <a target="_blank" href="https://gitlab.com/socco/vindta_reCAlk">gitlab.com/socco/vindta_reCAlk</a>
+              </p>
+              <img src="img/code_VINDTA.png" width="100%" style="border-width: 1px; border-color: #AAAAAA; border-style: solid">
+            </div>
+          </div>
+      </section>
+
+      <!-- PUBLICATIONS -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+        <div class="my-auto">
+          <h2 class="mb-5">Publications</h2>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'><span class=SpellE>Thomalla</span>,
+            S. J., <span class=SpellE>Moutier</span>, W., Ryan-Keogh, T. J., <b>Gregor, L.</b>,
+            &amp; <span class=SpellE>Schütt</span>, J. (2018). An optimized method for
+            correcting fluorescence quenching using optical backscattering on autonomous
+            platforms. <i>Limnology and Oceanography: Methods</i>, <i>16</i>(2), 132–144.
+            <a target="_blank" href="https://doi.org/10.1002/lom3.10234">https://doi.org/10.1002/lom3.10234</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'><b>Gregor, L.</b>, <span
+            class=SpellE>Kok</span>, S., &amp; Monteiro, P. M. S. (2017). Empirical methods
+            for the estimation of Southern Ocean CO2: support vector and random forest
+            regression. <span class=SpellE><i>Biogeosciences</i></span>, <i>14</i>(23),
+            5551–5569. <a target="_blank" href="https://doi.org/10.5194/bg-14-5551-2017">https://doi.org/10.5194/bg-14-5551-2017</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'><b>Gregor, L.</b>, <span
+            class=SpellE>Kok</span>, S., &amp; Monteiro, P. M. S. (2017). Interannual
+            drivers of the seasonal cycle of CO2 fluxes in the Southern Ocean. <span
+            class=SpellE><i>Biogeosciences</i></span><i> Discussions</i>, (September),
+            1–28. <a target="_blank" href="https://doi.org/10.5194/bg-2017-363">https://doi.org/10.5194/bg-2017-363</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'>Bakker, D. C. E., <span
+            class=SpellE>Pfeil</span>, B., <span class=SpellE>Landa</span>, C. S., <span
+            class=SpellE>Metzl</span>, N., O’Brien, K. M., Olsen, A., …, <b>Gregor, L.</b> … Xu, S. (2016). A
+            multi-decade record of high-quality fCO2 data in version 3 of the Surface Ocean
+            CO2 Atlas (SOCAT). <i>Earth System Science Data</i>, <i>8</i>(2), 383–413.
+            <a target="_blank" href="https://doi.org/10.5194/essd-8-383-2016">https://doi.org/10.5194/essd-8-383-2016</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'>Monteiro, P. M. S., <b>Gregor,
+            L.</b>, Lévy, M., <span class=SpellE>Maenner</span>, S., Sabine, C. L., &amp; <span
+            class=SpellE>Swart</span>, S. (2015). <span class=SpellE>Intraseasonal</span>
+            variability linked to sampling alias in air-sea CO2 fluxes in the Southern
+            Ocean. <i>Geophysical Research Letters</i>, <i>42</i>(20), 8507–8514.
+            <a target="_blank" href="https://doi.org/10.1002/2015GL066009">https://doi.org/10.1002/2015GL066009</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'><b>Gregor, L.</b>, &amp; Monteiro,
+            P. M. S. (2013). Seasonal cycle of N:P:TA stoichiometry as a modulator of CO2
+            buffering in eastern boundary upwelling systems. <i>Geophysical Research
+            Letters</i>, <i>40</i>(20), 5429–5434. <a target="_blank" href="https://doi.org/10.1002/2013GL058036">https://doi.org/10.1002/2013GL058036</a></p>
+
+            <p style='margin-left:24.0pt;text-indent:-24.0pt'><b>Gregor, L.</b>, &amp; Monteiro,
+            P. M. S. (2013). Is the southern <span class=SpellE>benguela</span> a
+            significant regional sink of CO2? <i>South African Journal of Science</i>, <i>109</i>(5),
+            1–5. <a target="_blank" href="https://doi.org/10.1590/sajs.2013/20120094">https://doi.org/10.1590/sajs.2013/20120094</a></p>
+
         </div>
-        <div class="col-xs-2 text-center">
-            <a target="_blank" href="https://www.researchgate.net/profile/luke_gregor">
-            <i class="fa fa-university fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <!-- <p>luke-gregor</p> -->
-            </a>
+      </section>
+
+      <!-- INTERESTS -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          Outside of work hours I love spending time on the mountain hiking or bouldering (rock climbing). I have also been fortunate enough to travel extensively for work and leisure. Below are a selection of my photos on various trips (Antarctica, South Africa, China, Peru and Switzerland). For more of my photography see <a href="http://www.instagram.com/lukgre" target="_blank">www.instagram.com/lukgre</a>.
+          <br>
+
+          <div style="margin: auto; padding-top: 20px;">
+          <img src="img/photo_0.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_1.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_2.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_3.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_4.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_5.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_6.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          <img src="img/photo_7.jpg" style="display: block; max-width: 40%; max-height:200px; width: auto; height: auto; float: left; padding: 2px 1px 1px 2px">
+          </div>
         </div>
+      </section>
 
     </div>
-</section>
 
-  <!-- jQuery -->
-<script src="static/js/jquery.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="static/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="static/js/jquery.easing.min.js"></script>
-<script src="static/js/jquery.fittext.js"></script>
-<script src="static/js/wow.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="static/js/creative.js"></script>
-
-
-</body>
+  </body>
 
 </html>
